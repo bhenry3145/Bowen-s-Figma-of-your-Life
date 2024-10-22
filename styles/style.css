@@ -1,0 +1,16 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+.imagesizer {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+

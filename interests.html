@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./interests.html">Interests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./accomplishments.html">Accomplishments</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        <h2>List of favorite video games</h2>
+        <div class="row">
+            <div class="col">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Rimworld
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">I first learned about Rimworld when I was in high school after I had built my first PC. It was recommended to me on YouTube as a game in early-access that was expected to become huge. The game was only $20 at the time, so I decided to buy it and I immediately fell in love with the game. It reminds me of Prison Architect but with space colonists who need to develop the technology to build a spaceship to leave the planet they are stranded on. </div> <img src="./assets/rimworld.jpg" alt="Picture of the cover of Rimworld">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Grand Theft Auto IV
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">GTA IV is my favorite of the Grand Theft Auto series. I love the main character Niko Bellic with his eastern European origin and the setting of Libery City, which is a parody of New York City. When I first bought this game, the store clerk asked if I wanted GTA V, which had just come out, but I chose this one because it was cheaper. </div> <img src="./assets/gtaiv.jpg" alt="Picture of the cover of GTA IV">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Cities Skylines
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Growing up, I was a big fan of Sim City. Cities Skylines though takes it to another level.Plus no EA bs. I became addicted to building cities, even after tanking the economy for the first few. The customization with how you want your city to look is awesome, with the devs even adding in a European theme to make the buildings look way different than the original.</div> <img src="./assets/cities.jpg" alt="Picture of the cover of Cities Skylines">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Elder Scrolls IV: Oblivion
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">I had heard of Skyrim before, but I never had heard of Oblivion. One day I was at my friend's house and he had it laying on the table and I asked to play it. After creating my Argonian named Rafael, my adventure was on. I must've played it for like 10 hours straight at my friend's house, which was pretty rude now looking back. I bought my own copy after I went home and then beat the game like a week later. Despite the Bethesda bugs, I loved the lore and story and all of the characters you meet in the game.</div> <img src="./assets/oblivion.jpg" alt="Picture of the cover of Oblivion">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                NHL 14
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Christmas 2013: I had previously been a huge hockey fan and never knew their was a video game for it like FIFA and Madden. My grandpa bought me a copy and right away I played it so much. I even met one of my only online friends on there during a random game and we still play other video games today. However, due to EA's greediness and their lack of innovation since NHL 14, I am reluctant to buy another NHL game.</div> <img src="./assets/nhl.jpg" alt="Picture of the cover of NHL 14">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <h2>List of hobbies</h2>
+        <div class="row">
+            <div class="col">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOneTwo" aria-expanded="false"
+                                aria-controls="flush-collapseOneTwo">
+                                Lifting Weights
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOneTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">I've always liked exercising and was glad to be introduced to weight lifting in 7th grade by my PE teacher. However, I did not start going to the gym until the summer of 2022 after I had already graduated high school. I strive to workout harder each session and improve on my weights and reps. </div> <img class="imagesizer" src="./assets/maxresdefault.jpg" alt="My warmup set">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwoTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwoTwo">
+                                Watching Sports
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwoTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Despite my sister telling me, 'all of the teams you like suck right now', I still watch sports whenever they are on. Whether it's the Jets on the football field, smh, the Sharks on the ice, man they suck, Kyle Busch on the racetrack, he hasn't won a race in forever, or Arsenal FC on the pitch, I will always stick with my teams. If you aren't there when they suck, you don't deserve to see them when they are good.</div> <img src="./assets/fan.jpg" alt="Me after my team loses">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThreeTwo" aria-expanded="false"
+                                aria-controls="flush-collapseThreeTwo">
+                                Cooking
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThreeTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Until I took a food prep class at Delta College, I was very weak in the cooking department. I could make ravioli and mac n cheese but those are super easy to make. Now I'm able to chop up onions, tomatoes, carrots, and other foods correctly. Now I really enjoy cooking meats like ribeyes, chuck roasts, brisket and baking cookies, banana bread, and pumpkin muffins. </div> <img class="imagesizer" src="./assets/food.jpg" alt="Last night's dinner">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFourTwo" aria-expanded="false"
+                                aria-controls="flush-collapseFourTwo">
+                                Watching Movies
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFourTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Like most people my age, I grew up on Disney and Pixar films. I've expanded my interests now and I really like thriller and horror movies. I really like Quentin Tarantino films like Pulp Fiction and Inglorious Basterds. Sci-fi films like Blade Runner and The Terminator are probably my top 2.</div> <img src="./assets/movie.jpg" alt="The Avengers">
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFiveTwo" aria-expanded="false"
+                                aria-controls="flush-collapseFiveTwo">
+                                Listening to music
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFiveTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">I can credit my dad the most for this hobby. He had me and my sister listening to the classic rock station every morning before school, jamming out to bands like AC/DC, Boston, Led Zeppelin, and The Who. Now I still love all of those bands, but I've really gotten into other bands he likes like Black Sabbath, Metallica, ZZ Top, Electric Light Orchestra, and Rush. Those bands are all so amazing that I could probably listen to only them for the rest of my life and be happy.</div> <img class="imagesizer" src="./assets/music.jpg" alt="Me listening to my friend's favorite song">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
